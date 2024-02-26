@@ -1,2 +1,3 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+## Exercises
+
+8 simple exercises to learn Dart syntax and master fundamental Dart programming concepts.
