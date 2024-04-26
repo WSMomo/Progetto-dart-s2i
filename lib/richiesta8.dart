@@ -165,12 +165,12 @@ class Universita {
   void mediaEtaStudenti() {
     int sommaEtaStudenti =
         studenti.fold(0, (int acc, Studente studente) => acc + studente.eta);
-    print(sommaEtaStudenti / studenti.length);
+    print('Media età studenti: "${sommaEtaStudenti / studenti.length}"');
   }
 
   void mediaEtaDocenti() {
     int mediaEtaDocenti =
         docenti.fold(0, (int acc, Docente docente) => acc + docente.eta);
-    print(mediaEtaDocenti / studenti.length);
+    print('Media età docenti: "${mediaEtaDocenti / docenti.length}"');
   }
 }
